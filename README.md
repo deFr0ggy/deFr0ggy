@@ -10,6 +10,8 @@ import os
 
 def greet():
     print(f"Welcome {os.popen('whoami').read().strip()}!! 🐸")
+    
+greet()
 ```
 
 <p align="center"> 
