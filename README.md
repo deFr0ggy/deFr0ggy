@@ -6,12 +6,17 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=deFr0ggy&style=flat&color=yellow" alt=deFr0ggy/> </p>
 
 ```python3
-import os
+import pyfiglet
 
-def greet():
-    print(f"Welcome {os.popen('whoami').read().strip()}!! 🐸")
-    
-greet()
+def froggy():
+    result = pyfiglet.figlet_format("Frog Man", font = "slant" )
+    print(result)
+
+def main():
+    froggy()
+
+if __name__ == "__main__":
+    main()
 ```
 
 <p align="center"> 
